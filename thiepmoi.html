@@ -132,7 +132,7 @@
              
             <div class="box-form" >
                 <!-- <img src="./thiep/anh/pic11-12.webp" alt="" class="img-form"> -->
-                    <form action="" name="#">
+                    <form action="" name="tri-thao">
                         <div class="feed-info">
                             <label for="" class="lb-form">Attendance confirmation</label>
                             <lb class="dot3"><i class="fa-solid fa-diamond"></i></lb>
@@ -145,15 +145,15 @@
                             <label for="" class="title">BẠN LÀ BẠN BÈ, ĐỒNG NGHIỆP HAY NGƯỜI THÂN CỦA...?</label>
                         </div> -->
                         <div class="container-check">
-                            <input class="box-feed" type="radio" value="YES" id="yes" name="XÁC NHẬN">
+                            <input class="box-feed" type="radio" value="YES" id="yes" name="CONFIRM">
                             <label class="check-box" for="yes">
                                 <h3 class="til-check">YES</h3>
                             </label>
-                            <input class="box-feed" type="radio" value="NO" id="no" name="XÁC NHẬN">
+                            <input class="box-feed" type="radio" value="NO" id="no" name="CONFIRM">
                             <label class="check-box" for="no"> 
                                 <h3 class="til-check">NO</h3>
                             </label>
-                            <input class="box-feed" type="radio" value="MAYBE" id="maybe" name="XÁC NHẬN">
+                            <input class="box-feed" type="radio" value="MAYBE" id="maybe" name="CONFIRM">
                             <label class="check-box" for="maybe"> 
                                 <h3 class="til-check">MAYBE</h3>
                             </label>
@@ -177,10 +177,10 @@
                             <label for="" class="title">GỬI MỘT VÀI LỜI IU THƯƠNG DÀNH CHO <br> CHÚNG MÌNH NHA ^^</label>
                         </div> -->
                         <div class="box-ten">
-                            <textarea id="message" name="LỜI CHÚC" rows="4" cols="50" placeholder="WRITE A WISH FOR THE BRIDE AND GROOM"></textarea>
+                            <textarea id="message" name="WISH" rows="4" cols="50" placeholder="WRITE A WISH FOR THE BRIDE AND GROOM"></textarea>
                         </div>
                         <div class="wrapper">
-                            <button class="xacnhan" type="submit">XÁC NHẬN</button>
+                            <button class="xacnhan" type="submit">SUBMIT</button>
                         </div>
                     </form>
                     <div class="boxx-imgend">
@@ -195,14 +195,14 @@
         </div>
     </div>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbz1TEWXmnA4rUe2ItQgv8WoG2A000iYMpc42fC6Krbi1KS0CXwoM6rLbpfdRypr2EU/exec';
-        const form = document.forms['loc-huong'];
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxfOJGmeVh-GZ2oFKsVImlD42lASLpxHEkIWpgiajhRC6MLh2aMqiQ2nPQLHpoVZHI/exec';
+        const form = document.forms['tri-thao'];
     
         form.addEventListener('submit', e => {
         e.preventDefault(); // Ngừng việc gửi form mặc định
 
         // Hiển thị thông báo cảm ơn ngay khi nhấn gửi
-        alert('CẢM ƠN BẠN ĐÃ PHẢN HỒI! Dữ liệu gửi về sẽ mất khoảng một vài giây, nhấn "OK" và đợi form tự làm mới lại nhé <3');
+        alert('THANK YOU FOR YOUR RESPONSE! The data being sent will take a few seconds. Please click "OK" and wait for the form to refresh automatically.');
 
         // Gửi dữ liệu form đi
         fetch(scriptURL, { 
@@ -213,7 +213,7 @@
             if (response.ok) {
                 // Nếu dữ liệu gửi thành công, làm mới lại form
                 form.reset(); // Làm mới lại form
-                alert('Thông tin đã được gửi về dâu/rể!!');
+                alert('The information has been sent!!');
             } else {
                 // Nếu gặp lỗi khi gửi dữ liệu
                 console.error('Error!', response);

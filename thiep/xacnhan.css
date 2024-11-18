@@ -288,7 +288,7 @@
   z-index: 2; /* Đặt z-index cao hơn để nội dung nổi bật hơn */
   padding-bottom: 30px;
   font-family: var(--font-mtd);
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .box-content{
@@ -306,14 +306,14 @@
 .lb4{
   font-family: var(--font-gotham);
   font-weight: 500;
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
 .lb2{
   font-family: var(--font-gotham);
   font-weight: 300;
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
@@ -329,13 +329,13 @@ hr{
 .lb3{
   font-family: var(--font-aston);
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 
 .time-date{
   font-family: var(--font-aston);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .box-icon{
@@ -358,12 +358,12 @@ hr{
 .lb6{
   font-family: var(--font-aston);
   font-weight: 500;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .church{
   font-family: var(--font-gotham);
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 300;
   margin-bottom: 40px;
 }
@@ -1073,6 +1073,9 @@ textarea{
     height: 70px;
   }
   .icon{
-    width: 50%;
+    width: 70%;
+  }
+  .map{
+    width: 300px;
   }
 }
