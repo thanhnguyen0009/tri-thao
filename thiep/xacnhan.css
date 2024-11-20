@@ -637,6 +637,12 @@ hr{
   margin-top: 50px;
 }
 
+.lb-formm{
+  font-family: var(--font-mtd);
+  font-size: 35px;
+  margin-top: 15px;
+}
+
 
 .in-fe{
   font-size: 11px;
