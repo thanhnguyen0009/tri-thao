@@ -396,12 +396,14 @@ hr{
 .lb-time{
   font-family: var(--font-gotham);
   font-size: 15px;
-  margin: 20px 0 50px;
+  margin-top: 20px;
+
 }
 
 .lb-timee{
   font-family: var(--font-gotham);
   font-size: 15px;
+  margin-bottom:  50px;
 }
 
 .map{
