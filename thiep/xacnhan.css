@@ -393,6 +393,17 @@ hr{
   margin-bottom: 40px;
 }
 
+.lb-time{
+  font-family: var(--font-gotham);
+  font-size: 15px;
+  margin: 20px 0 50px;
+}
+
+.lb-timee{
+  font-family: var(--font-gotham);
+  font-size: 15px;
+}
+
 .map{
   font-family: var(--font-gotham);
   width: 400px;
