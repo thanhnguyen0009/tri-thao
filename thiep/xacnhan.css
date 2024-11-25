@@ -1166,6 +1166,73 @@ textarea{
       transform: rotate(360deg);
   }
 }
+
+
+
+
+/* ==========Animation=============== */
+
+
+/* Hiệu ứng fade-down */
+.lb4, .lb44, .img-timeline, .img-dress, .til1 {
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.lb4.visible, .lb44.visible, .img-timeline.visible, .img-dress.visible, .til1.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Hiệu ứng fade-up */
+.lb2, .lb22, .lb6, .church, .churchh, .til2 {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.lb2.visible, .lb22.visible, .lb6.visible, .church.visible, .churchh.visible, .til2.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Hiệu ứng fade-right */
+.lb3, .story1 {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.lb3.visible, .story1.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Hiệu ứng fade-left */
+.lb3, .story2 {
+  transform: translateX(50px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.lb3.visible, .story2.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Hiệu ứng zoom-in */
+.time-date, .lb-time, .lb-timee {
+  transform: scale(0.5);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.time-date.visible, .lb-time.visible, .lb-timee.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+
   
 
 /* ================================ */
